@@ -1,0 +1,9 @@
+CREATE TABLE ContactForm(
+	id INT AUTO_INCREMENT NOT NULL,
+	firstName varchar(255) NOT NULL,
+	lastName varchar(255) NOT NULL,
+	email varchar(255) NOT NULL,
+	phone int NOT NULL,
+	message longtext NOT NULL,
+	PRIMARY KEY(id)
+);
